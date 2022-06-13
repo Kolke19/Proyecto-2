@@ -1,0 +1,98 @@
+/* Paleta de colores */
+/* 
+1-background---> background: linear-gradient(90deg, var(--pink-pastel) 0%, var(--violet) 100%);
+2-Main color---->#FFC0CB
+3-Second color---> #88D8C0 aqua
+4-Third color ---> #212529 grey
+ min-height: 100vh;
+ !important;
+*/
+:root {
+  --pink: #ff74a4;
+  --violet: #9f6ea3;
+  --lightblack: #515c6f;
+  --white: #ffffff;
+  --darkwhite: #cecaca;
+  --pinkshadow: #ffcbdd;
+  --lightbshadow: rgba(0, 0, 0, 0.15);
+  --gris: #212529;
+  --pink-pastel: #ffc0cb;
+}
+
+body {
+  background: linear-gradient(90deg, var(--pink-pastel) 0%, var(--violet) 100%);
+}
+.main-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+h1 {
+  padding-top: 0.8rem;
+  font-family: Bungee;
+  color: #212529;
+  font-size: 5rem;
+  text-align: center;
+  display: block;
+  height: 20px;
+  margin-bottom: 120px;
+}
+@media screen and (max-width: 600px) {
+  h1.titulo {
+    font-size: 3rem;
+    margin-top: 5px;
+  }
+}
+
+.member-container {
+  border: white 10px solid;
+  height: 300px;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  margin-bottom: 15px;
+}
+.nombre h3 {
+  font-family: Oxanium;
+  font-size: 20px;
+  font-weight: 800;
+}
+.nombre h4 {
+  font-family: roboto;
+  font-size: 19px;
+  font-weight: 700;
+  color:black;
+}
+a{
+  text-decoration: none;
+}
+.nombre {
+  text-align: center;
+  margin-top: 5px;
+  color: black;
+  font-style: bold;
+  flex: 1;
+}
+.redes-container {
+  align-items: flex-end;
+  margin: auto;
+}
+.icono img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 10px;
+}
+.member-container:hover {
+  box-shadow: 3px 3px 6px 2px #3333;
+  transform: scale(1.05);
+  cursor: pointer;
+}

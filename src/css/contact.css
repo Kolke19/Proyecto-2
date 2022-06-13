@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --morado: rgb(255, 0, 106);
+  --error: #f66060;
+  --verde2: #1ed12d;
+  --blanco: white;
+  --gris: #d3d3d3;
+  --darkgray: #212529;
+  --pinkCake: #ffc0cb;
+  --pink-pastel: #ffc0cb;
+  --violet: #9f6ea3;
+}
+
+body {
+  background: linear-gradient(90deg, var(--pink-pastel) 0%, var(--violet) 100%);
+}
+
+form {
+  max-width: 550px;
+  width: 50%;
+  background: #ffc0cb;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  /* border: #ffc0cb 8px solid; */
+}
+#Form-styles label {
+  font-family: Oxanium;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #212529;
+  font-family: Oxanium;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  resize: none;
+  border-bottom: 1px solid var(--gris);
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid var(--pinkCake);
+  transition: 0.1s ease all;
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--morado);
+}
+
+.centro {
+  text-align: center;
+}
+.centro .form-btn {
+  font-family: Oxanium !important;
+}
+.form-btn {
+  margin-top: 30px;
+  font-size: 1rem;
+  width: 30%;
+  height: 5.5vh;
+  max-width: 200px;
+  background: #88d8c0;
+  color: var(--blanco);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  color: #212529;
+  font-weight: bold;
+  border: #212529 0.5px solid;
+}
+
+.error {
+  color: var(--error);
+}
+
+.error-border {
+  border-bottom: 1px solid var(--error);
+}
+
+#succes {
+  color: #28a745;
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 338px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  input,
+  textarea {
+    font-size: 0.5rem;
+  }
+}

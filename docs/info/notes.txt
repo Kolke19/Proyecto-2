@@ -1,0 +1,53 @@
+=================================================
+Dudas:
+1.  Categoria Destacada y propiedad isDestacada
+2.  Pagina registro - formularios: se puede usar un alert en vez de modal
+
+=================================================
+Estructura del proyecto:
+1. docs: archivos de media
+2. src: archivos de sistema
+3. classes: prototipos
+4. components: elementos del DOM a reutilizar
+5. css: estilos bootstrap y propios
+6. db: conexion a json-server
+7. js: archivos javacript de bootstrap
+8. ui: funciones referentes a manipulacion de DOM
+9. utils: servicios generales del sistema
+
+=================================================
+Capas (organización) del desarrollo:
+1. Html: vista, conformado por las etiquetas html. Ubicado en root/raiz de proyecto. Ej admin.html
+2. UI de vista: conformado por los eventos de determinada vista. Ubicado en ui. Ej UIAdmin.js
+3. UI de prototipo: conformado por la manipulacion de DOM de determinado prototipo. Ubicado en ui. Ej UIAlbum.js
+4. Servicio de prototipo: conformado por las funciones de un determinado prototipo. Ubicado en utils. Ej AlbumServices.js
+5. Prototipo de entidad: conformado por constructor con propiedades de la entidad y sus metodos. Ubicado en classes. Ej Album.js
+6. db.json: archivo que es ejecutado por json-server para simular un API. Ubicado en root/raiz de proyecto.
+
+=================================================
+Manejo de git:
+
+Ramas existentes:
+1. main
+2. dev
+3. devIntegrante
+
+Subir ultimos cambios locales:
+01. git add . (en rama personal)
+02. git commit -m 'mensaje' (en rama personal)
+03. git push (en rama personal)
+04. git checkout dev 
+05. git pull (en rama dev)
+06. git pull origin devIntegrante (en rama dev)
+07. git push (en rama dev)
+08. git checkout devIntegrante
+09. git pull origin dev
+10. npm install (si sabemos que algun integrante instaló alguna nueva dependencia)
+11. git push
+
+
+
+Instalacion de json server - correccion de errores
+1- npm install -g json-server 
+2-Set-ExecutionPolicy Unrestricted
+3-json-server --watch db.json --port 4000

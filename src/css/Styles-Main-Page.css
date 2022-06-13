@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.main-container {
+  /* height: 100vh; */
+  color: #ffc0cb;
+  padding-top: 4rem;
+}
+
+.sidebar {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.sidebar-wraper {
+  padding-bottom: 200px;
+}
+.sidebar_menu {
+  margin: 20px o;
+  color: rgb(17, 12, 12);
+}
+.sidebar_logo img {
+  max-width: 150px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.sidebar_menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+.sidebar_menu i {
+  margin: 0 20px;
+}
+.sidebar_menu a.sidebar_menu_select {
+  color: white;
+  background-color: rgb(80, 80, 80);
+  border-radius: 5px;
+  padding-right: 2px;
+}
+.sidebar_menu_item {
+  margin-top: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.sidebar_menu p.sidebar_menu_title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.sidebar_menu_item span {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.sidebar_menu_create {
+  padding: 0 20px 20px;
+  color: white;
+}
+
+.sidebar_playlists {
+  padding: 20px 0;
+  border-top: 1px solid white;
+}
+
+.sidebar_playlists a {
+  margin: 10px 0;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.navbar-logo {
+  font-size: 3rem !important;
+  padding-top: 10px !important;
+}
+.navbar-name {
+  font-family: bungee;
+  color: #ffc0cb;
+  font-size: 24px;
+  padding-top: 10px;
+}
+.dropdown-name {
+  font-family: Oxanium !important;
+  font-size: 18px;
+}
+.navbar-dropdownMenu {
+  font-size: 1.6rem !important;
+}
+.icon-dropdown {
+  padding-inline-start: 120px !important;
+}
+/* Main styles */
+
+.img-container {
+  background-image: url(../../docs/img/bckg.jpg);
+  height: auto;
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  overflow-x: hidden;
+  display: inline-block;
+  padding-bottom: 19rem;
+}
+
+.inner-container {
+  text-align: center;
+  width: 100%;
+  color: black;
+  height: auto;
+  margin-top: 300px;
+}
+
+.inner-container h1 {
+  font-size: 4em;
+  font-family: Bungee;
+}
+.inner-container h2 {
+  margin-top: 17px;
+  font-family: oxanium;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.inner-container button {
+  font-family: oxanium;
+  border: 1px solid;
+}
+/* SCROLL DOWN */
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in 3s;
+  transition: all 0.5s ease-in 3s;
+}
+
+.scroll-down {
+  /* position: absolute; */
+  bottom: 30px;
+  left: 50%;
+  /* margin-left: -16px; */
+  /* display: block; */
+  /* width: 32px;
+  height: 32px;
+  border: 2px solid #fff; */
+  background-size: 14px auto;
+  /* border-radius: 50%; */
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  transform: scale(1);
+}
+
+.scroll-down:before {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  /* border: 2px solid white;
+  border-width: 0px 0 2px 2px; */
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+/* Footer styles */
+
+.footer-container {
+  background-color: #212529;
+  height: auto;
+  color: pink;
+}
+
+.used-links-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  /* .img-container {
+    height: 600px;
+    width: 390px;
+    overflow-x: hidden;
+  } */
+  h1,
+  h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .img-container {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

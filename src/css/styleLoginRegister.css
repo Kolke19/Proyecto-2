@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --pink: #ff74a4;
+  --violet: #9f6ea3;
+  --lightblack: #515c6f;
+  --white: #ffffff;
+  --darkwhite: #cecaca;
+  --pinkshadow: #ffcbdd;
+  --lightbshadow: rgba(0, 0, 0, 0.15);
+  --gris: #212529;
+  --pink-pastel: #ffc0cb;
+}
+
+body {
+  background: linear-gradient(90deg, var(--pink-pastel) 0%, var(--violet) 100%);
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto; /* keep center */
+  position: relative;
+}
+
+.back_box {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(7px);
+  background-color: #ffc0cb;
+  border-radius: 1rem;
+}
+
+.back_box div {
+  margin: 100px 40px;
+  color: white;
+  transition: all 500ms;
+}
+.back_box div p,
+.back_box div {
+  color: black;
+  font-family: Oxanium;
+}
+
+.back_box div button {
+  margin-top: 30px;
+  font-family: Oxanium;
+  font-size: 1.3rem;
+  color: #212529;
+  /* justify-content: center; */
+}
+
+.back_box div h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+  font-family: Oxanium;
+}
+.back_box button {
+  padding: 1rem 3rem;
+  border: 1px solid #fff;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: all 300ms;
+  border-radius: 1rem;
+}
+.back_box button:hover {
+  background: #88d8c0;
+}
+
+/* Form */
+.container_login_register {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  bottom: 185px;
+  left: 10px;
+  transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.container_login_register form {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background: white;
+  position: absolute;
+  border-radius: 1rem;
+}
+.container_login_register form h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.1em;
+  color: #88d8c0;
+  font-family: Oxanium !important;
+}
+.container_login_register form input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #f2f2f2;
+  font-size: 1rem;
+  outline: none;
+}
+
+.container_login_register form button {
+  padding: 10px 40px;
+  margin-top: 20px;
+  border: none;
+  font-size: 1rem;
+  background-color: #88d8c0;
+  color: black;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-family: Oxanium !important;
+}
+
+.form_login {
+  opacity: 1;
+  display: block;
+}
+.form_register {
+  display: none;
+}
+/* Estilos creado por jorge */
+#password-recovery {
+  color: #212529 !important;
+  padding-left: 5px !important;
+}
+
+/* validaciones */
+.form_input_error {
+  /*mantiene apagado el error*/
+  font-size: 12px;
+  margin: 0;
+  display: none;
+}
+.form_input_error_active,
+.activeMsj {
+  /*para habilitar el error*/
+  display: block;
+  padding-top: 20px;
+}
+.border_input_none {
+  border: none;
+}
+.border_color_red {
+  border: solid;
+  border-color: red;
+}
+.border_color_green {
+  border: solid;
+  border-color: #128f06bd;
+}
+.paragraph {
+  display: none;
+}
+@media screen and (max-width: 850px) {
+  main {
+    margin-top: 50px;
+  }
+  .back_box {
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+  }
+  .back_box div {
+    margin: 0px;
+    position: absolute;
+  }
+  /* form */
+  .container_login_register {
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
+  .container_login_register form {
+    position: relative;
+  }
+}

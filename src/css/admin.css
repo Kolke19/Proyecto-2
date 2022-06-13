@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #212529;
+}
+
+tbody tr td {
+  max-width: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#albumModalCrud{
+  font-family: Oxanium !important;
+}
+.modal-content h5{
+  color: #212529;
+}
+.modal-content button{
+  background-color: #88d8c0;
+  color: black;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.modal-header{
+  background-color: #ffcbdd;
+}
+.modal-body{
+  background-color: #212529;
+}
+.modal-footer{
+  background-color: #ffcbdd;
+}
+.modal-footer .btnModalAlbumSave{
+  background-color: #88d8c0;
+}
+
+@media (max-width: 1100px) {
+  #thDescrip,
+  #thImgUrl,
+  #thAudio,
+  #thDestacado,
+  #thCategoria
+  {
+    display: none;
+  }
+
+  #tdDescrip,
+  #tdImgUrl,
+  #tdAudio,
+  #tdDestacado,
+  #tdCategoria
+  {
+    display: none;
+  }
+}

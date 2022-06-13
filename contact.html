@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium:wght@200;300;400&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rollingfy</title>
+  </head>
+  <body>
+    <div id="Form-styles">
+      <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>Estemos en contacto</h1>
+        <label for="usuario">Nombre de usuario:</label>
+        <input
+          type="text"
+          id="usuario"
+          value=""
+          placeholder="Nombre de usuario"
+        />
+        <small class="error"></small>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          name=""
+          id="mensaje"
+          rows="6"
+          placeholder="Escriba su mensaje"
+        ></textarea>
+        <small class="error"></small>
+
+        <div class="centro">
+          <button type="submit" class="form-btn">Enviar</button>
+          <p id="Exito"></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="./src/ui/UIContact.js"></script>
+  </body>
+</html>

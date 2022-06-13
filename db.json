@@ -1,0 +1,310 @@
+{
+  "usuario": [
+    {
+      "nombre": "Emanuel Rojas",
+      "usuario": "emanuelRojas",
+      "correo": "emanuelRojas@gmail.com",
+      "password": "12345678",
+      "rol": "admin",
+      "id": 1
+    },
+    {
+      "nombre": "Lucas Suarez",
+      "usuario": "lucasSuarez",
+      "correo": "lucasSuarez@gmail.com",
+      "password": "12345678",
+      "rol": "client",
+      "id": 2
+    },
+    {
+      "nombre": "Fernando Alexis",
+      "usuario": "killians",
+      "correo": "vale.alexis18@gmail.com",
+      "password": "12345678",
+      "rol": "client",
+      "id": 3
+    }
+  ],
+  "album": [
+    {
+      "nombre": "Purple Rain",
+      "artista":"Prince",
+      "descrip": "descripcion1",
+      "imgUrl": "https://ladobmusica.com.ar/pub/media/catalog/product/cache/2c246b008315a461dd64781fe12af0bd/4/_/4_3_00251102_1.jpg",
+      "esDestacado": false,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 1
+    },
+    {
+      "nombre": "Thriller",
+      "artista":"Michael Jackson",
+      "descrip": "descripcion2",
+      "imgUrl": "https://i.discogs.com/0M5PzPwtk9s-I2N9cnVzY0T3uneW7prXyyG1itafU5g/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzUy/OC0xNTg4NzM4NDQ2/LTIwMzcuanBlZw.jpeg",
+      "esDestacado": false,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 2
+    },
+    {
+      "nombre": "another brick in the wall",
+      "artista": "Pink Floyd",
+      "descrip": "Bob Ezrin comenzó a escribir un resumen para el álbum que se unió rápidamente una vez que comenzó a pensar en él como un guión. Presentó la banda su “guión”, que incluía lugares donde las canciones actuales y las canciones “por escribir” encajarían más adelante. Aunque se debaten las razones y el momento exactos, el teclista de Pink Floyd, Wright, fue despedido de la banda durante la grabación de The Wall .",
+      "imgUrl": "https://i.scdn.co/image/ab67616d0000b2735d48e2f56d691f9a4e4b0bdf",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": false,
+      "categoria": "rock",
+      "id": 3
+    }, 
+    {
+      "nombre": "Rock And Roll",
+      "artista": "Led Zeppelin",
+      "descrip": " canción de Led Zeppelin incluida en su álbum Led Zeppelin IV en 1971. El tema tiene un ritmo combinado de blues y hard rock. Fue escrita originalmente por Jimmy Page (guitarra), John Bonham (batería), Robert Plant (voz) y John Paul Jones (bajo). La guitarra de Page, con un ritmo de hard rock blues fusion",
+      "imgUrl": "https://m.media-amazon.com/images/I/51h-cJeHf0L._SX450_.jpg",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": true,
+      "categoria": "rock",
+      "id": 4
+    },
+    {
+      "nombre": "Paranoid",
+      "artista": "Black Sabbath",
+      "descrip": "Es el segundo álbum de la banda británica de heavy metal Black Sabbath. Originariamente su nombre iba a ser War Pigs, pero debido a presiones de la discográfica se cambió el nombre a Paranoid. Fue grabado y publicado en el año 1970, constituyendo el primer éxito de la banda",
+      "imgUrl": "https://indierocks.b-cdn.net/wp-content/uploads/2020/09/Black_Sabbath-Paranoid-Frontal.jpg",
+      "audio": "./music/black_sabath_Paranoid",
+      "esDestacada": false,
+      "categoria": "rock",
+      "id": 5
+    },
+    {
+      "nombre": "Ojalá Que Llueva Café",
+      "artista": "Juan Luis Guerra",
+      "descrip": "Ojalá que llueva café es el nombre del cuarto álbum de estudio grabado por el cantautor dominicano Juan Luis Guerra, y su grupo 4.40, Fue lanzado al mercado por la empresa discográfica dominicana Karen Records en 1989.",
+      "imgUrl": "https://m.media-amazon.com/images/I/61CMmYJ3vjL._SL1200_.jpg",
+      "audio": "./music/Juan_Luis_Guerra_Ojalá_Que_Llueva_Café",
+      "esDestacada": true,
+      "categoria": "latino",
+      "id": 6
+    },
+    {
+      "nombre": "Yo viviré (I will Survive)",
+      "artista": "Celia Cruz",
+      "descrip": "A lo largo de su carrera, Celia Cruz interpretó y popularizó internacionalmente ritmos tropicales como el son, son montuno, guaguancó, rumba, guaracha y bolero. Sin embargo, el género que llevó al estrellato fue la salsa, ritmo influenciado por estilos de diferentes partes del mundo.",
+      "imgUrl": "https://i.musicaimg.com/discos/500/86702.jpg",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": false,
+      "categoria": "latino",
+      "id": 7
+    },
+    {
+      "nombre": "Procura",
+      "artista": "Chichi Peralta",
+      "descrip": "Su música se caracteriza por la fusión de ritmos latinos llegando a incluirse dentro de la llamada world music. Ha combinado el son con el jazz, el merengue con el pop, ritmos africanos, hip hop, rap, bachata, guaguancó, ritmos brasileños, plena, salsa, vallenato, cumbia, texturas sinfónicas",
+      "imgUrl": "https://i1.sndcdn.com/artworks-000029004807-s1bm8q-t500x500.jpg",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": false,
+      "categoria": "latino",
+      "id": 8
+    },
+    {
+      "nombre": "En la Ciudad de la Furia",
+      "artista": "Soda Stereo",
+      "descrip": "En 2006 la revista estadounidense Al Borde publicó una lista con las 500 mejores canciones del rock iberoamericano, premiando sus canciones «De música ligera» (N.º 1, siendo así considerada la mejor canción de toda la historia del rock iberoamericano), «Persiana americana» (N.º 7), «En la ciudad de la furia» (N.º 46)",
+      "imgUrl": "https://i.ytimg.com/vi/-5u_iwszdHU/hqdefault.jpg",
+      "audio": "./music/Soda _Stereo_En_la_ciudad_de_la_furia",
+      "esDestacada": false,
+      "categoria": "national-rock",
+      "id": 9
+    },
+    {
+      "nombre": "Luna de Miel en la Mano",
+      "artista": "Virus",
+      "descrip": "Luna de miel se convirtió en el tema más exitoso de Virus. Logró el puesto 62° en la clasificación de las 100 mejores canciones del rock argentino por la Rolling Stone Argentina y MTV en 2002. También logró el puesto 131° en la clasificación de las 500 mejores canciones de la historia del rock en Iberoamérica por la revista estadounidense Al Borde en 2006.",
+      "imgUrl": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": true,
+      "categoria": "national-rock",
+      "id": 10
+    },
+    {
+      "nombre": "Homero",
+      "artista": "Viejas locas",
+      "descrip": "Los cortes de difusión del álbum fueron las canciones Legalícenla, Descansar en paz, Homero, Me gustas mucho y Todo sigue igual (las últimas tres contaron con sus respectivos videoclips). El hit Me gustas mucho fue considerado como la 99° mejor canción del rock argentino en la lista de Los 100 Hits de la revista Rolling Stone en 2002.",
+      "imgUrl": "https://studiosol-a.akamaihd.net/letras/500x500/fotos/5/a/2/c/5a2c3292748fbc62bf4e11f71580dbb8.jpg",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": false,
+      "categoria": "national-rock",
+      "id": 11
+    },
+    {
+      "nombre": "Happy",
+      "artista": "Pharrell Williams",
+      "descrip": "La canción también sirve como el primer sencillo de su segundo álbum de estudio Girl, lanzado en marzo de 2014. Fue lanzado como sencillo el 21 de noviembre de 2013 promocionado junto a un video musical de formato largo con una duración de veinticuatro horas presentado a través de la página web 24hoursofhappy.com",
+      "imgUrl": "https://i.discogs.com/8PA2gtnXgHGypk8ujbp83edzrhG2h86kDMLMaTaokn0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxOTQ2/MjItMTQxMzQwNzEw/MS0zOTk1LmpwZWc.jpeg",
+      "audio": "./music/Pharrell_Williams_Happy",
+      "esDestacada": false,
+      "categoria": "pop",
+      "id": 12
+    },
+    {
+      "nombre": "Get Lucky",
+      "artista": "Daft Punk",
+      "descrip": "En 2014, la canción fue premiada en la ceremonia de entrega de los premios Grammy a la Grabación del año y mejor interpretación de pop de dúo/grupo, en la que Stevie Wonder se unió a Daft Punk, Williams y Rodgers en el escenario para interpretar la canción.Daft Punk",
+      "imgUrl": "https://i1.sndcdn.com/artworks-000080788022-1to0l8-t500x500.jpg",
+      "audio": "",
+      "esDestacada": true,
+      "categoria": "pop",
+      "id": 13
+    },
+    {
+      "nombre": "Locked Out Of Heaven",
+      "artista": "Bruno Mars",
+      "descrip": "Recibió comentarios positivos de los críticos, quienes encontraron en el tema una similitud con algunas canciones de la banda británica The Police.Sin embargo, Mars confirmó que no fue su intención sonar como dicha agrupación. Comercialmente, obtuvo un buen éxito, sobre todo en Norteamérica, en donde llegó hasta la cima de la lista Billboard Hot 100 ",
+      "imgUrl": "https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/e/a/4/a/28057.jpg",
+      "audio": "./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "esDestacada": false,
+      "categoria": "pop",
+      "id": 14
+    },
+    {
+      "nombre": "Future Nostalgia",
+      "artista":"Dua Lipa",
+      "descrip": "descripcion2",
+      "imgUrl": "https://pbs.twimg.com/media/EennuV_UMAEWe3S?format=jpg&name=900x900",
+      "esDestacado": true,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 15
+    },
+    {
+      "nombre": "Baby one more time",
+      "artista":"Britney Spears",
+      "descrip": "descripcion2",
+      "imgUrl": "https://lastfm.freetls.fastly.net/i/u/770x0/ac719f1d63e83979a6e0da276149d94a.jpg",
+      "esDestacado": true,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 16
+    },
+    {
+      "nombre": "Ray of light",
+      "artista":"Madonna",
+      "descrip": "descripcion2",
+      "imgUrl": "https://i.discogs.com/thuprH8SH_wAfAZNdow89jtRRbTK2Yhhpe1bu-15YNU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzOTQy/MDctMTQ3OTc4NTA5/Mi00NTk5LmpwZWc.jpeg",
+      "esDestacado": false,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 17
+    },
+    {
+      "nombre": "Millenium",
+      "artista":"Backstreet Boys",
+      "descrip": "descripcion2",
+      "imgUrl": "https://lastfm.freetls.fastly.net/i/u/770x0/7612e1b124faec9da79ec5bb68ddd67f.jpg",
+      "esDestacado": true,
+      "categoria": "pop",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 18
+    },
+    {
+      "nombre": "In Utero",
+      "artista":"Nirvana",
+      "descrip": "descripcion2",
+      "imgUrl": "https://i.discogs.com/vTSLTCeEi9nbZ_CDzW-olzIZetHwMISHUAQWxtvgpJA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDMw/MzEtMTU5MDIxODcx/Mi05MDgwLmpwZWc.jpeg",
+      "esDestacado": false,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 19
+    },
+    {
+      "nombre": "London Calling",
+      "artista":"The Clash",
+      "descrip": "descripcion2",
+      "imgUrl": "https://www.todorock.com/wp-content/uploads/2019/09/the-clash-london-calling-1200x1193.jpg",
+      "esDestacado": false,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 20
+    },
+    {
+      "nombre": "Ten",
+      "artista":"Pearl Jam",
+      "descrip": "descripcion2",
+      "imgUrl": "https://kxt.org/wp-content/uploads/2016/08/Pearl-Jam.jpg",
+      "esDestacado": true,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 21
+    },
+    {
+      "nombre": "Use Your Illusion",
+      "artista":"Guns & Roses",
+      "descrip": "descripcion2",
+      "imgUrl": "https://m.media-amazon.com/images/I/71cPYP4T32L._SX425_.jpg",
+      "esDestacado": true,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 22
+    },
+    {
+      "nombre": "Vodoo Lounge",
+      "artista":"The Rolling Stones",
+      "descrip": "descripcion2",
+      "imgUrl": "https://m.media-amazon.com/images/I/61LE3lc9k1L.jpg",
+      "esDestacado": true,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 23
+    },
+    {
+      "nombre": "Back in black",
+      "artista":"AC/DC",
+      "descrip": "descripcion2",
+      "imgUrl": "https://www.autopistarock.com/images/easyblog_articles/4341/b2ap3_amp_ACDC_BACK_IN_BLACK_A.JPG",
+      "esDestacado": true,
+      "categoria": "rock",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 24
+    },
+    {
+      "nombre": "Livin la vida loca",
+      "artista":"Ricky Martin",
+      "descrip": "descripcion2",
+      "imgUrl": "https://www.rochainforma.com/wp-content/uploads/2022/04/%E2%80%98Livin-la-vida-loca.jpg",
+      "esDestacado": true,
+      "categoria": "latino",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 25
+    },
+    {
+      "nombre": "Pies descalzos",
+      "artista":"Shakira",
+      "descrip": "descripcion2",
+      "imgUrl": "https://i.discogs.com/d9czvaWcE88VHZuGuko1MojtGjbGx6eUDAQpmnVPZFk/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTUy/NTItMTI5OTg3MjY2/Ny5qcGVn.jpeg",
+      "esDestacado": true,
+      "categoria": "latino",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 26
+    },
+    {
+      "nombre": "Aries",
+      "artista":"Luis Miguel",
+      "descrip": "descripcion2",
+      "imgUrl": "https://i.pinimg.com/originals/f1/7e/06/f17e0679d26b4b7cc8be0824b10b8d32.jpg",
+      "esDestacado": false,
+      "categoria": "latino",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 27
+    },
+    {
+      "nombre": "Revolucion de amor",
+      "artista":"Mana",
+      "descrip": "descripcion2",
+      "imgUrl": "https://cdns-images.dzcdn.net/images/cover/e3c9921c9fd4855ea23d947e880cac12/500x500.jpg",
+      "esDestacado": true,
+      "categoria": "latino",
+      "audio":"./docs/music/pink_floyd_another_brick_in_the_wall.mp3",
+      "id": 28
+    }
+  ]
+}
